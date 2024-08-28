@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "196989088972",
+    "project_id": "task-839f8",
+    "storage_bucket": "task-839f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196989088972:android:33e5cd00a862c4e8303e69",
+        "android_client_info": {
+          "package_name": "com.amritesh.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3pwQYhU8BuA_kNXjN1NWl2EH9YBk4RPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
