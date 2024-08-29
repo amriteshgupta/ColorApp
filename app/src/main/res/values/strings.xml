@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Task</string>
-    <string name="title_activity_home">HomeActivity</string>
+    <string name="app_name">Color App</string>
+    <string name="title_activity_home">Color App</string>
 </resources>
