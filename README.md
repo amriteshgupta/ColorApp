@@ -47,8 +47,8 @@ The app follows the MVVM architecture pattern:
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/color-tracker-app.git
-    cd color-tracker-app
+    git clone https://github.com/amriteshgupta/colorapp.git
+    cd colorapp
     ```
 
 2. **Open the Project**
