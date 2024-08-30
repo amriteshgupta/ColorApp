@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    kotlin("kapt") // Use the alias for kapt if using version catalog
+    kotlin("kapt")
     alias(libs.plugins.google.gms.google.services)
 }
 
@@ -44,12 +44,10 @@ android {
         )
     }
 
-    // Enable Jetpack Compose
     buildFeatures {
         compose = true
     }
 
-    // Compose Options
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.1"
     }
@@ -59,7 +57,6 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-
 }
 
 dependencies {
@@ -103,3 +100,5 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.lifecycle.runtime.ktx)
 }
+
+
